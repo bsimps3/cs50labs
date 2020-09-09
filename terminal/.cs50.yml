@@ -3,4 +3,5 @@ lab50:
     - !exclude "*"
     - !include apt1
 submit50:
-  files: *check50_files
+  files: 
+  - include *check50_files
