@@ -3,5 +3,5 @@ lab50:
     - !exclude "*"
     - !include apt1
 submit50:
-  - !include apt1/
+  - !include test.txt
   
