@@ -7,6 +7,9 @@ In this lab you will learn about:
 - Assigning a value to a variable
 - Getting user input for a variable
 
+
+[For more info on variables, download the CS50 Variables Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/variables.pdf)
+
 ## What is a Variable?
 In computer programming, a **variable** is a container that holds numbers, words, or other types of data to use in our program. Variables in programming are similar to the variables we use in math class, since they both represent a value. Unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
 
@@ -118,7 +121,7 @@ Though the program on the right is correct and will execute properly, it is not 
 
 So your job is to edit the code provided, to use one or more variables, along with user input.
 
-To start, declare a new variable `age` as an int and use `get_int()` with get a value from the user.
+To start, declare a new variable `age` as an int and use `get_int()` to get a value from the user.
 
 Now replace every occurrence of `17` with `age`, so that the program uses the variable rather than the hardcoded number for each calculation.
 
@@ -187,6 +190,7 @@ Since we want to get into good habits early, check that your indentation, and sp
 ```
 style50 variables.c
 ```
+**When you are all the way done, take a screenshot of your code in the variables.c file to the right.  Submit that screenshot to the assignment on Google Classroom.**
 
 [For more info on variables, download the CS50 Variables Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/variables.pdf)
 
