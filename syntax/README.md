@@ -9,6 +9,9 @@ In this lab you will learn:
 - Why we use curly braces and semicolons
 - The syntax needed to create a program in C
 
+[For more info, download the CS50 Syntax Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/syntax.pdf)
+
+
 ## What is Syntax?
 
 In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. As you can see above, if the word order of a sentence is incorrect, you might not understand what is being said to you. You've been learning the syntax of English for years now. So, of course things are going to be awkward and unfamiliar when you start learning an entirely new language: C.
@@ -96,7 +99,7 @@ You can check that your spacing is correct by executing the following at the `$`
 style50 syntax.c
 ```
 
-If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.
+If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.  style50 is a special tool created for this class to help you learn how best to format your code so that humans can read it better.
 
 When style50 outputs:
 
@@ -105,5 +108,11 @@ When style50 outputs:
 </div>
 
 you are done! Congratulations, you've completed the Syntax Lab!
+
+### Submitting your work
+
+**When you are all the way done, take a screenshot of your code in the datatypes.c file to the right.  If you need to take multiple screenshots because you have to scroll down to see all of the code, that is okay.  You can also drag the terminal window down to resize it so that you can see more code at a time. **
+
+**Submit that screenshot to the assignment on Google Classroom.**
 
 [For more info, download the CS50 Syntax Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/syntax.pdf)
