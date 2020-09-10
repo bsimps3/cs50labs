@@ -190,7 +190,10 @@ Since we want to get into good habits early, check that your indentation, and sp
 ```
 style50 variables.c
 ```
-**When you are all the way done, take a screenshot of your code in the variables.c file to the right.  Submit that screenshot to the assignment on Google Classroom.**
+### Submitting your work
+**When you are all the way done, take a screenshot of your code in the variables.c file to the right.  If you need to take multiple screenshots because you have to scroll down to see all of the code, that is okay.  You can also drag the terminal window down to resize it so that you can see more code at a time. **
+
+**Submit that screenshot to the assignment on Google Classroom.**
 
 [For more info on variables, download the CS50 Variables Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/variables.pdf)
 
