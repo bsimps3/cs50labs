@@ -6,6 +6,9 @@ In this lab you will learn about:
 - Problems that can arise with `ints` and `floats`
 - Data input functions for different data types
 
+[For more info on data types, download the CS50 Data Types Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/data_types.pdf)
+
+
 ## What is a Data Type?
 
 A **data type**, in programming, is a classification that specifies which type of value a variable can hold. A `string` can hold only textual data, while an `int` can only hold a whole number.
@@ -162,6 +165,11 @@ Finally **execute** your program with:
 ```
 ./datatypes
 ```
+### Submitting your work
+
+**When you are all the way done, take a screenshot of your code in the datatypes.c file to the right.  If you need to take multiple screenshots because you have to scroll down to see all of the code, that is okay.  You can also drag the terminal window down to resize it so that you can see more code at a time. **
+
+**Submit that screenshot to the assignment on Google Classroom.**
 
 <!--
 
