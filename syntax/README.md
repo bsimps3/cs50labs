@@ -11,7 +11,7 @@ In this lab you will learn:
 
 ## What is Syntax?
 
-In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. As you can see above, if the word order of a sentence is incorrect, you might not understand what is being said to you.
+In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. As you can see above, if the word order of a sentence is incorrect, you might not understand what is being said to you. You've been learning the syntax of English for years now. So, of course things are going to be awkward and unfamiliar when you start learning an entirely new language: C.
 
 {% next %}
 
