@@ -6,6 +6,9 @@ In this lab you will learn:
 - Why and how to combine Boolean operators
 - Why conditional statements are so important
 
+[For more info, download the CS50 Boolean Expressions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/boolean_expressions.pdf)
+
+
 ## What are Boolean Expressions?
 
 We've already seen several **boolean expressions** in Scratch. For example:
@@ -171,5 +174,11 @@ Note that the the two conditions are combined inside of the parentheses.
 Complete the code on the right by adding one or more conditional statements to print out only one phrase, depending on the grade that's input.
 
 Then test your code by entering inputs that are ints, floats, strings, and ints but that are outside the expected range (like 1000)!
+
+### Submitting your work
+
+**When you are all the way done, take a screenshot of your code in the datatypes.c file to the right.  If you need to take multiple screenshots because you have to scroll down to see all of the code, that is okay.  You can also drag the terminal window down to resize it so that you can see more code at a time. **
+
+**Submit that screenshot to the assignment on Google Classroom.**
 
 [For more info, download the CS50 Boolean Expressions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/boolean_expressions.pdf)
