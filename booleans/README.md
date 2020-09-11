@@ -177,7 +177,7 @@ Then test your code by entering inputs that are ints, floats, strings, and ints 
 
 ### Submitting your work
 
-**When you are all the way done, take a screenshot of your code in the datatypes.c file to the right.  If you need to take multiple screenshots because you have to scroll down to see all of the code, that is okay.  You can also drag the terminal window down to resize it so that you can see more code at a time. **
+**When you are all the way done, take a screenshot of your code in the booleans.c file to the right.  If you need to take multiple screenshots because you have to scroll down to see all of the code, that is okay.  You can also drag the terminal window down to resize it so that you can see more code at a time. **
 
 **Submit that screenshot to the assignment on Google Classroom.**
 
