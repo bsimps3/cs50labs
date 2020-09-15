@@ -5,5 +5,5 @@ lab50:
     
 submit50:
    files:
-   -!exclude "*"
-   -!include while.c
+   - !exclude "*"
+   - !include while.c
