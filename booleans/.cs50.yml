@@ -2,3 +2,8 @@ lab50:
   files:
     - !exclude "*"
     - !include booleans.c
+
+submit50:
+  files:
+    - !exclude "*"
+    - !include forloop.c
