@@ -4,6 +4,5 @@ lab50:
     - !include while.c
     
 submit50:
-   files:
-   - !exclude "*"
-   - !include while.c
+   files: *check50_files
+  
