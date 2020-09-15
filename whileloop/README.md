@@ -73,4 +73,10 @@ Also, remember that the smallest value that an int can hold is -2<sup>31</sup> w
 
 {% endspoiler %}
 
+### Submitting your work
+
+**When you are all the way done, take a screenshot of your code in the whileloop.c file to the right.  If you need to take multiple screenshots because you have to scroll down to see all of the code, that is okay.  You can also drag the terminal window down to resize it so that you can see more code at a time.  If you would prefer to copy/paste the source-code into a Google Doc and turn in the Doc, that works too.**
+
+**Submit that screenshot/or Google Doc to the assignment on Google Classroom.**
+
 [For more info on loops, download the CS50 Loops Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/loops.pdf)
