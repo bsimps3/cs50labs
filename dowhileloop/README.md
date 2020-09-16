@@ -5,6 +5,8 @@ In this lab you will learn:
 - What is the difference between a while and do-while loop
 - How and when to use do-while loops
 
+[For more info on loops, download the CS50 Loops Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/loops.pdf)
+
 ## What is a Do-While Loop?
 
 The **do-while loop** is similar to a while loop in the sense that it repeatedly executes a block of code as long as the condition we give it is true. The do-while loop though, will always execute at least once, and then check the condition to determine if it should execute again and again.
@@ -38,5 +40,11 @@ Complete the program to the right to include a do-while loop to validate user in
 Be sure to test your program with numbers in this range, numbers outside of this range, as well as zero, 10, negative numbers and floating point numbers.
 
 You may have to use a logical operator, such as `&&` (AND) or `||` (OR) to combine two conditions for this.
+
+### Submitting your work
+
+**When you are all the way done, take a screenshot of your code in the while.c file to the right.  If you need to take multiple screenshots because you have to scroll down to see all of the code, that is okay.  You can also drag the terminal window down to resize it so that you can see more code at a time.  If you would prefer to copy/paste the source-code into a Google Doc and turn in the Doc, that works too.**
+
+**Submit that screenshot/or Google Doc to the assignment on Google Classroom.**
 
 [For more info on loops, download the CS50 Loops Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/loops.pdf)
