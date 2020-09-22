@@ -6,4 +6,4 @@ lab50:
 submit50:
   files:
     - !exclude "*"
-    - !include forloop.c
+    - !include datatypes.c
