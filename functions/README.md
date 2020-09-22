@@ -6,6 +6,8 @@ In this lab you will learn:
 - Why programmers use functions
 - How to write your own functions in C
 
+[For more information on functions download our CS50 Functions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/functions.pdf)
+
 ## What is a Function?
 
 **Functions** in computer science are similar to those we've seen in math, whereby they take in some input and produce some output.
