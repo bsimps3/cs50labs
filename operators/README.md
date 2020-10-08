@@ -141,3 +141,4 @@ To submit, type in the terminal:
 ```c
 submit50 bsimps3/cs50labs/2020/operators
 ```
+Type "y" or "yes" when the question about academic honesty pops up.
