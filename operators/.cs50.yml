@@ -2,3 +2,8 @@ lab50:
   files:
     - !exclude "*"
     - !include operators.c
+    
+submit50:
+  files:
+    - !exclude "*"
+    - !include operators.c
