@@ -19,9 +19,11 @@ return_type function_name( parameter list )
 }
 ```
 The first line of code above is the function header.  The first thing in the function header is the return type.  If your function is going to return a value, this is where you say what kind of value.  Some common return types are:
+
 *void-  This is the type you use if you don't want to return anything.
 *int
 *float
+
 But any variable type that exists in C can be a return type.
 
 The next part of the function header is the function name.  The name must be unique and not already taken by another function.  When you use (or call) this function you'll use the name you type here.  
