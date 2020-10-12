@@ -1,4 +1,4 @@
-# Functions
+# Function Examples
 
 In this lab you will learn:
 - How functions are used
@@ -13,9 +13,10 @@ In this lab you will learn:
 Functions have a header line, a list of parameters (the inputs), a body, and sometimes a return value.
 
 ```c
-return_type function_name( parameter list ) {
+return_type function_name( parameter list )
+{
    body of the function
-   }
+}
 ```
 The first line of code above is the function header.  The first thing in the function header is the return type.  If your function is going to return a value, this is where you say what kind of value.  Some common return types are:
 *void
@@ -33,9 +34,16 @@ void myFunction( int input1 )
     printf("the input is %i", input1);
 }
 ```
+The parameters (or inputs) can be any variable type.  They only "live" inside of your function if you declare them in the parentheses of the function header.  So, you cannot use input1 from the above example unless you're writing code inside of the curly braces of the body of the function.
+
+The body of a function is all of the code between the curly braces of that function.  This is the code which is run when you "call" a function.  "Calling" a function is the name programmers give to the act of using a function.
+
 
 {% next %}
 
-## Writing our own Functions
+## Using an already written function 
+Look at the code in functions.c
+
+There is a function called calculate().  See if you can figure out how to "call" it.
 
 [For more information on functions download our CS50 Functions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/functions.pdf)
