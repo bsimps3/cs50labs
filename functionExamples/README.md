@@ -49,8 +49,10 @@ The body of a function is all of the code between the curly braces of that funct
 Look at the code in functions.c
 
 There is a function called calculate().  See if you can figure out how to "call" it.
+
 *Can you change the calculate() function so that it multiplies instead of adds?  
 *Can you change the calculate() function so that it requires 3 inputs and multiplies all 3 inputs together to get the answer?
 *Can you change the calculate() function so that it returns a float and takes floats as inputs?  
 *Can you change the calculate() function so that it DOES NOT return anything, but instead uses printf() itself to print out the answer?
+
 [For more information on functions download our CS50 Functions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/functions.pdf)
