@@ -21,9 +21,9 @@ return_type function_name( parameter list )
 The first line of code above is the function header.  The first thing in the function header is the return type.  If your function is going to return a value, this is where you say what kind of value.  Some common return types are:
 
 
-*void-  This is the type you use if you don't want to return anything.
-*int
-*float
+* void-  This is the type you use if you don't want to return anything.
+* int
+* float
 
 
 But any variable type that exists in C can be a return type.
@@ -50,9 +50,9 @@ Look at the code in functions.c
 
 There is a function called calculate().  See if you can figure out how to "call" it.
 
-*Can you change the calculate() function so that it multiplies instead of adds?  
-*Can you change the calculate() function so that it requires 3 inputs and multiplies all 3 inputs together to get the answer?
-*Can you change the calculate() function so that it returns a float and takes floats as inputs?  
-*Can you change the calculate() function so that it DOES NOT return anything, but instead uses printf() itself to print out the answer?
+- [ ] Can you change the calculate() function so that it multiplies instead of adds?  
+- [ ] Can you change the calculate() function so that it requires 3 inputs and multiplies all 3 inputs together to get the answer?
+- [ ] Can you change the calculate() function so that it returns a float and takes floats as inputs?  
+- [ ] Can you change the calculate() function so that it DOES NOT return anything, but instead uses printf() itself to print out the answer?
 
 [For more information on functions download our CS50 Functions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/functions.pdf)
