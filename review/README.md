@@ -53,6 +53,56 @@ for (int j = 1; j <= 10; j++)
 Here we start our counting variable, `j`, at 1 and execute the loop until `j` is no longer less than or equal to 10. Our first execution of the loop prints 1 on its own line. We then increment `j` by 1 and check the condition to see if it's still true. Since `j` is now 2, it's true that `2 <= 10` so the loop repeats printing 2 on it's own line. This continues until we've printed out the count from 1 to 10 inclusive.
 
 {% next %}
+# While Loop
+
+In this lab you will learn:
+
+- What is a while loop
+- How and when to use while loops
+
+## What is a While Loop?
+
+As we'll soon see, there are three types of loops we can use in C. While each type of loop can be made to do just about anything, each type of loop serves a particular purpose.
+
+The **while loop** repeatedly executes a block of code as long as the condition evaluates to true. We usually use a while loop when we don't know in advance how many times we want a block of code to repeat. An example might be to determine the number of times a number can be divided by 2:
+
+```c
+int n = get_int("Enter a number: ");
+int counter = 0;
+
+while (n > 1)
+{
+    n = n / 2;
+    counter++;
+}
+
+printf("Your number can be divided by 2 %i times\n", counter);
+```
+
+{% next %}
+
+The syntax for a while loop is similar to the if statement, with the key word `while` replacing the `if`, where the condition is in parentheses and the block of code to execute is wrapped inside of curly braces `{}`. But don't confuse the `while` loop with an `if` statement. Though the syntax is similar, the execution is different. The `while` loop repeatedly executes the block of code while the condition is true. The `if` statement executes the block of code once if the condition is true.
+
+## Forever Loop
+
+In Scratch, we saw a **forever loop** which was useful when we wanted to repeat an action forever:
+
+![if_x_y](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/whileloop/forever.png)
+
+We can use the while loop in C to create a forever loop:
+
+```c
+while (true)
+{
+    printf("hello, world\n");
+}
+```
+
+Since the `while` keyword requires a condition, we use `true` as the Boolean expression to ensure that our loop will run forever. Our program will check whether the expression evaluates to true (which it always will in this case), and then run the lines inside the curly braces. Then it will repeat infinitely until we explicitly tell the program to break out of it.
+
+{% next %}
+
+
 
 ## Your Turn
 There are comments in the code on the right with instructions on what to do.  Complete the challenges in the comments by writing code below each comment.
