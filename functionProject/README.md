@@ -7,9 +7,19 @@ In this lab you will write a project which uses multiple functions.
 # Your task:
 We're going to write tictacto!
 
-Run ./tictacto  to see an example of the game.
+To see an example of the game (not-quite-finished example), first run the command:
+
+```c
+chmod +x tictacto
+```
+
+Then run:
+```c
+./tictacto
+```
 
 Write code in functionProject.c to complete the functions so that the game works.
+
 # Submitting:
 Use the following to submit your lab.  There are no automated checks to pass for this one (so you don't need to run check50).
 
