@@ -1,9 +1,13 @@
 lab50:
   files:
     - !exclude "*"
-    - !include functions.c
+    - !include functionProject.c
+    - !include tictacto
     
 submit50:
   files:
     - !exclude "*"
-    - !include functions.c
+    - !include functionProject.c
+    - !include tictacto
+    
+
