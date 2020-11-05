@@ -10,9 +10,9 @@ The rand() function will never return RAND_MAX, but it returns all numbers up to
 
 If we want a random number from 1-9 we could do the following:
 
-'''c
+```c
 int random_number = rand() / ((double)RAND_MAX + 1) * 10;
-'''
+```
 
 The purpose of (double) before RAND_MAX is to avoid an integer division which would result in zero.  This is called "casting".  We're forcing RAND_MAX to be a double type variable so that when the division happens, it results in a decimal between 0 and up to but not including 1.  Then, we multiply that decimal by 10 to get a number from 1-9.
 ## Your Turn
