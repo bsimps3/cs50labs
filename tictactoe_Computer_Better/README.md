@@ -12,7 +12,8 @@ Run this command first.
 ```c
 chmod +x example_better
 ```
-Then run the following command to see the code working. 
+Then run the following command to see the code working. To stop playing, on Windows press ctrl+C while in the Terminal.  On Mac press cmd + C while in the Terminal.
+
 ```c
 ./example_better
 ```
