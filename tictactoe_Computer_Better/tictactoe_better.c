@@ -69,7 +69,7 @@ int main(void)
 
 void print_game(void)
 {
-   printf("Tic Tac Toe!!!!! versus the dumb computer \n");
+   printf("Tic Tac Toe!!!!! versus the not-as-dumb computer \n");
    printf("  %c   |   %c   |   %c  \n ", spot1, spot2, spot3);
    printf(" %c   |   %c   |   %c  \n ", spot4, spot5, spot6);
    printf(" %c   |   %c   |   %c  \n ", spot7, spot8, spot9);

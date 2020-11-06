@@ -2,7 +2,7 @@ lab50:
   files:
     - !exclude "*"
     - !include tictactoe_better.c
-    - !include example
+    - !include example_better
     
 submit50:
   files:
