@@ -1,0 +1,10 @@
+lab50:
+  files:
+    - !exclude "*"
+    - !include tictactoe_better.c
+    - !include example
+    
+submit50:
+  files:
+    - !exclude "*"
+    - !include tictactoe_better.c
