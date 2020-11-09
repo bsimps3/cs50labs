@@ -5,6 +5,6 @@ lab50:
     - !include exampleBetter
     
 submit50:
-  files:
+   files: 
     - !exclude "*"
     - !include tictactoeBetter.c
