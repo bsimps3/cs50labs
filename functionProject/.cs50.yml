@@ -8,6 +8,5 @@ submit50:
   files:
     - !exclude "*"
     - !include functionProject.c
-    - !include tictacto
     
 
