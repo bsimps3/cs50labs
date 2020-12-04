@@ -1,7 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
-# define NUM_DAYS 5
+# define NUM_DAYS 5  //this is just another way of creating a constant, which is a variable that you cannot change in the code later.
+//NUM_DAYS is a variable which holds 5
 
 int main(void)
 {
