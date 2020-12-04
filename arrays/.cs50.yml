@@ -3,3 +3,9 @@ lab50:
     - !exclude "*"
     - !include array.c
     - !include string.c
+    
+submit50:
+  files:
+    - !exclude "*"
+    - !include array.c
+    - !include string.c
