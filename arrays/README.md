@@ -6,6 +6,8 @@ In this lab you will learn:
 - How we create and use arrays
 - Why a `for` loop is so useful for arrays and strings
 
+[Download our CS50 Reference sheet on Arrays and Strings](https://cs50.harvard.edu/ap/2020/assets/pdfs/arrays_and_strings.pdf)
+
 ## What is an Array?
 
 An **array** is a type of data structure in C that can hold multiple values, of the same type, in one variable. There are many reasons we may want to do this. Say, for instance, we want to get the average grade for a class of 30 students. We can create 30 variables, get user input for each of these, add them up and divide by 30:
@@ -53,7 +55,7 @@ Note that we use the variable `i` both to control the `for`  loop, as well as to
 
 ## Strings
 
-Arrays in C can store values of any data type, as long as all elements in the array are of the same type. In fact, a **string** in C is really an array of `chars`.
+Arrays in C can store values of any data type, as long as all elements in the array are of the same type. In fact, a **string** in C is really an special kind of array of `chars`.
 
 When we declare a string in C as in:
 
@@ -82,9 +84,11 @@ Here we print out each letter stored in the string variable `course` on its own 
 
 ## Your Turn!
 
-To the right are two programs you will complete. First, you'll modify `string.c` to include a for loop that iterates through the string `name` and print out one character per line.
+To the right are two programs you will complete. 
 
-Then complete the program `array.c` which creates a new integer array named `hours`, in which you will input the number of hours you spent on homework each day for the last 5 days, and then print out the hours for each day. Your output should look like:
+(1) First, you'll modify `string.c` to include a for loop that iterates through the string `name` and print out one character per line.
+
+(2) Then complete the program `array.c` which creates a new integer array named `hours`, in which you will input the number of hours you spent on homework each day for the last 5 days, and then print out the hours for each day. Your output should look like:
 
 ```
 Day 1: <day 1 hours>
