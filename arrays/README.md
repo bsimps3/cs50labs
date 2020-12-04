@@ -119,4 +119,12 @@ Why do you think we're printing the value `i + 1` for the day?
 
 Make sure to compile and test both programs!
 
+## Submitting
+
+To use submit50 to submit, run the following in terminal:
+
+```c
+submit50 bsimps3/cs50labs/2020/arrays
+````
+
 [Download our CS50 Reference sheet on Arrays and Strings](https://cs50.harvard.edu/ap/2020/assets/pdfs/arrays_and_strings.pdf)
