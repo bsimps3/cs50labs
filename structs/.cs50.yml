@@ -4,3 +4,8 @@ lab50:
     - !include struct.h
     - !include struct1.c
     - !include mystruct.c
+
+submit50:
+  files:
+    - !exclude "*"
+    - !include mystruct.c
