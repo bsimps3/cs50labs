@@ -75,7 +75,7 @@ You may declare either a single variable or an array using your new data type. I
 
 When you're finished, run the following from the terminal
 ```c
-submit50 bsimps3/cs50labs/2020/struts
+submit50 bsimps3/cs50labs/2020/structs
 ```
 
 [Download our CS50 Reference sheet on Structures and Encapsulation](https://cs50.harvard.edu/ap/2020/assets/pdfs/structures_and_encapsulation.pdf)
