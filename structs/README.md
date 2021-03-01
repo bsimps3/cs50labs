@@ -71,5 +71,11 @@ The basic definition of a new data type is already there, however please change 
 
 You may declare either a single variable or an array using your new data type. If you use an array, you'll want to use a `for` loop to add and print the data for each member.
 
+## Submitting
+
+When you're finished, run the following from the terminal
+```c
+submit50 bsimps3/cs50labs/2020/struts
+```
 
 [Download our CS50 Reference sheet on Structures and Encapsulation](https://cs50.harvard.edu/ap/2020/assets/pdfs/structures_and_encapsulation.pdf)
