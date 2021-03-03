@@ -9,11 +9,11 @@ In this lab you will learn:
 
 ## What is a Struct?
 
-There are times that we want to store data that is related, but of different data types, in one variable. This bundling of data is called **encapsulation**. In other programming languages, we might do this with an object, but in C, we have something that's more basic: the **data structure** or just **struct**. 
+There are times that we want to store data that is related, but of different data types, in one variable. This bundling of data is called **encapsulation**. In other programming languages, we might do this with a data structure called an **object**, but in C, we have something that's more basic: the **data structure** or just **struct**. When you begin to use structs to solve problems you are starting down a path in computer science called **Object Oriented Programming**.
 
-For instance, say we want to keep track of a class of 25 students, and each student has a name, a student id number, a year, and a gpa. Up until now, the only way we could do this would be to create four arrays, one for each of these types of data. We would have to declare all four arrays, each with a size of 25, and make sure to keep them in sync, so that the same index in each refers to the same student.
+For instance, say we want to keep track of a class of 25 students, and each student has a name, a student id number, a year, and a gpa. Up until now, the only way we could do this would be to create four arrays, one for each of these types of data. We would have to declare all four arrays, each with a size of 25, and make sure to keep them in sync, so that the **same index** in each refers to the same student.  So really, there is no formal relationship among the data that represents one student... We just have to remember that in these four arrays the values at index 2 represent one student.  This can lead to mistakes!
 
-We can instead group this data together in one variable using a **struct**. We can create a new data type named `student`, which has four **members**, a `string name`, an `int id`, an `int year` and a `float gpa`. In addition, we can set up our new structure without having to declare how many students there will be.
+We can instead group this data together in one variable using a **struct**. We can create a new data type named `student`, which has four **members**, a `string name`, an `int id`, an `int year` and a `float gpa`. A **member** is a variable which "belongs to" a struct.  In addition, we can set up our new structure without having to declare how many students there will be.
 
 So, using **structs** we can create our own data types, which will come in very useful as we deal with more complex programming problems! 
 
@@ -24,14 +24,14 @@ So, using **structs** we can create our own data types, which will come in very 
 We create a new struct as follows:
 
 ```c
-typedef struct
+typedef struct           //this header line will always be the same
 {
-    string name;
+    string name;         //any variables you want the struct to have go here in between curly brackets.
     int id;
     int year;
     float gpa;
 }
-student;
+student;                 //the name of your new data-type or struct goes here. Don't forget the semicolon!
 ```
 
 This defines a new data type called `student`. In fact we can create a new `student` variable in the same we we declare a new `int`: by typing the data type followed by the new variable name:
@@ -43,12 +43,12 @@ student s;
 We can then set each member of our new variable `s`, by typing:
 
 ```c
-s.name = "Janice";
+s.name = "Janice";               
 s.id = 12345;
 s.year = 2019;
 s.gpa = 4.0;
 ```
-
+Notice that we're now using a new feature of C, the period operator.  The period operator allows you to select a member (variable) of a struct.
 If we want to keep track of 25 students information, we can declare an array named `students` with a data type of `student`:
 
 ```c
@@ -65,7 +65,7 @@ As you may have seen in lecture, David demonstrates the use of **structs** in th
 
 Note that in David's program, he created a **header** file, named `struct.h`, to define his `student` data type. This file is then included at the top of `struct1.c`. This is a common technique used by C programmers as programs become longer and more complex.
 
-Your job is to complete the program, `mystruct.c`, and create your own datatype, add data to a few members, and then print them out. You do not need to define your structure in a header file.
+Your job is to complete the program, `mystruct.c`, and create your own datatype, add data to a few members, and then print them out. You do not need to define your structure in a header file, you can do it in mystruct.c
 
 The basic definition of a new data type is already there, however please change the name of your new structure from `name_goes_here` to something of your liking.
 
