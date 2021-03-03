@@ -3,7 +3,15 @@
 #include <cs50.h>
 #include <stdio.h>
 
-#include "struct.h"
+
+
+// Represents a student
+typedef struct
+{
+    char name;
+    char dorm;
+}
+student;
 
 int main(void)
 {
