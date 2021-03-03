@@ -8,8 +8,8 @@
 // Represents a student
 typedef struct
 {
-    char name;
-    char dorm;
+    string name;
+    string dorm;
 }
 student;
 
